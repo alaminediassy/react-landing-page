@@ -1,0 +1,36 @@
+.navbar{
+    position: absolute;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.navbar a{
+    color: white;
+    letter-spacing: 1px;
+}
+
+.navbar .logo{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.navbar .nav-links{
+    display: flex;
+}
+
+.navbar .nav-links ul{
+    display: flex;
+}
+
+.navbar .nav-links ul li{
+    margin: 0 25px;
+}
+
+.navbar .nav-links ul li.active a{
+    font-weight: 600;
+}
